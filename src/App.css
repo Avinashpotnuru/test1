@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color:bisque
+}
+
+.main-content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #786e94;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.active-link {
+  color: #007bff;
+}
